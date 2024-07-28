@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.message-left{
+    padding-left: 200px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+}
+.message-right{
+    padding-left: 1300px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+}
+.form-flex{
+    display: flex;
+    margin-left: 160px;
+}
+.flex-ff{
+    display: flex;
+}
+
+.form-container2{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.250);
+}
+
+.form-container3{
+    width: 100%;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.250);
+}
+h1.patient-form{
+    font-family: 'Montserrat', sans-serif;
+}
+form.patient-form{
+    text-align: left;
+    margin-left: 25%;
+    font-family: 'Playfair Display', serif;
+}
+
+input.patient-form{
+    margin-left: 52%;
+    background-color: #dca50c;
+	border: #dca50c solid;
+	border-width: 2px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+input.patient-form:hover{
+    background-color: #ffffff;
+	border: #dca50c solid;
+	border-width: 2px;
+	color: #dca50c;
+	transition: 0.3s;
+}

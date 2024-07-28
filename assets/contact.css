@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.contact-container{
+    text-align: center;
+    height:450px;
+}
+.contact-flex{
+    display: flex;
+    margin-left: 35%;
+}
+h1.contact{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 120px;
+}
+a.contact-a{
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: #4c5669;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+}
+a.contact-a:hover{
+    -webkit-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.250);
+    transition: 0.3s;
+}
+dt.contact-dt{
+    padding: 10px;
+}
